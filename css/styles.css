@@ -9,9 +9,10 @@
     --border-radius: 30px;
 }
 
-*, *::after, *::before {
+*, 
+*::after, 
+*::before {
     box-sizing: border-box;
-
 }
 
 /* Typography */
@@ -362,4 +363,21 @@ a {
     .plan__description {
         font-size: 1.7rem; /* 1.7rem = 17px */
     }
+}
+
+/* Media */
+.media {
+    display: flex;
+}
+
+.media__title {
+    margin-top: 0;
+}
+
+.media__body {
+    margin: 0 2rem;/* 2rem = 20px */
+}
+
+.media__image {
+    margin-top: 1rem;
 }
