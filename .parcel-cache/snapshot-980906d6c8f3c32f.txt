@@ -35,7 +35,7 @@
 101C:\Users\gamer\Desktop\SiteProject\node_modules\@swc\helpers\cjs\_object_without_properties_loose.cjs133899853445383559 0
 44C:\Users\gamer\Desktop\SiteProject\.cache\39133899840081541544 1
 88C:\Users\gamer\Desktop\SiteProject\node_modules\htmlnano\lib\modules\removeUnusedCss.mjs133899853445763563 0
-52C:\Users\gamer\Desktop\SiteProject\package-lock.json133899886877951309 0
+52C:\Users\gamer\Desktop\SiteProject\package-lock.json133899892933561995 0
 90C:\Users\gamer\Desktop\SiteProject\node_modules\@parcel\core\lib\requests\TargetRequest.js133899853446308574 0
 70C:\Users\gamer\Desktop\SiteProject\node_modules\semver\functions\eq.js133899853443398254 0
 45C:\Users\gamer\Desktop\SiteProject\components133899750755580326 1
@@ -103,7 +103,7 @@
 40C:\Users\gamer\Desktop\SiteProject\pages133895436802123767 1
 94C:\Users\gamer\Desktop\SiteProject\node_modules\@parcel\transformer-postcss\lib\loadPlugins.js133899853442703086 0
 84C:\Users\gamer\Desktop\SiteProject\node_modules\css-tree\lib\syntax\node\Selector.js133899853931067810 0
-66C:\Users\gamer\Desktop\SiteProject\node_modules\.package-lock.json133899886878096343 0
+66C:\Users\gamer\Desktop\SiteProject\node_modules\.package-lock.json133899892933717066 0
 114C:\Users\gamer\Desktop\SiteProject\node_modules\csso\node_modules\css-tree\cjs\tokenizer\char-code-definitions.cjs133899853929247700 0
 97C:\Users\gamer\Desktop\SiteProject\node_modules\caniuse-lite\data\features\css-relative-colors.js133899853446838654 0
 72C:\Users\gamer\Desktop\SiteProject\node_modules\safe-buffer\package.json133899853441937927 0
