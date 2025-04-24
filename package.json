@@ -1,8 +1,8 @@
 {
   "name": "siteproject",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.14.4",
+    "svgo": "^3.3.2"
   }
 }
