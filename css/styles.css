@@ -212,7 +212,7 @@ a {
     font-weight: 600;
     margin: 1rem 0;
     outline: 0;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -302,6 +302,7 @@ a {
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem; /* 1.5rem = 15px, 1rem = 10px */
+    width: 0;
 }
 
 .input-group .btn {
@@ -320,6 +321,7 @@ a {
     border-radius: 7px;
     box-shadow: 0 0 20px 10px #f3f3f3;    
     overflow: hidden;
+
 }
 
 .card__header,
@@ -402,23 +404,27 @@ a {
     transform: scale(1.15);
 }
 
-@media screen and (max-width: 1024px) {
-    .plan__name {
-        font-size: 1.4rem; /* 1.4rem = 14px */
+@media screen and (min-width: 1024px) {
+    .plan--popular {
+        transform: scale(1.1);
+      }
+    
+      .plan__name {
+        font-size: 1.4rem;
+      }
+    
+      .plan__price {
+        font-size: 5rem;
+      }
+    
+      .plan__billing-cycle {
+        font-size: 1.6rem;
+      }
+    
+      .plan__description {
+        font-size: 1.7rem;
+      }
     }
-
-    .plan__price {
-        font-size: 5rem; /* 5rem = 50px */
-    }
-
-    .plan__billing-cycle {
-        font-size: 1.6rem; /* 1.6rem = 16px */
-    }
-
-    .plan__description {
-        font-size: 1.7rem; /* 1.7rem = 17px */
-    }
-}
 
 /* Media */
 .media {
@@ -748,8 +754,9 @@ a {
 }
 
 .block-domain__prices{
+    color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     font-size: 2rem; /* 2rem = 20px */
     font-weight: 600;
@@ -766,6 +773,12 @@ a {
 }
 
 /* Plans Block */
+.block-plans {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
 .block-plans .grid{
     gap: 8rem 4rem;
 }
@@ -773,6 +786,7 @@ a {
 .block-plans .card {
     max-width: 500px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* Features */
